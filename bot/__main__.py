@@ -66,8 +66,8 @@ def chat_list(update, context):
 @run_async
 def repo(update, context):
     button = [
-    [InlineKeyboardButton("Repo", url=f"https://github.com/NamasteIndia/slam-mirror-bot")],
-    [InlineKeyboardButton("Support Group", url=f"https://t.me/mirrorupdatesnnews")]]
+    [InlineKeyboardButton("Repo", url=f"https://github.com/BhavyaBDN/Smiror")],
+    [InlineKeyboardButton("Support Group", url=f"https://t.me/not_available")]]
     reply_markup = InlineKeyboardMarkup(button)
     update.effective_message.reply_photo(IMAGE_URL, reply_markup=reply_markup)
 
